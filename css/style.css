@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( 90deg, #0476D9, #FFFFFF);
+    font-family: cursive;
+    
+    
+}
+
+.general {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+h1 {
+    color: #f27e63;
+    text-align: center;
+    
+}
+
+.front {
+    margin: auto;
+}
+.pfront {
+    color: #555;
+    text-align: center;
+    font-size: large;
+}
+
+.left {
+
+}
+
+.right {
+    
+}
+
+.middle {
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    float: right;
+    clear: right;
+    padding: 20px;
+    
+}
+
+.dleft {
+    color: #f27e63;
+    margin: 20px;
+    border-top: 5px groove #d95284;
+}
+.eleft {
+    color: midnightblue;
+}
